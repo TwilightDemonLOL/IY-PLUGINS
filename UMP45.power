@@ -1,0 +1,15 @@
+a = require(game:GetService("Players")[game.Players.LocalPlayer.Name].Backpack.UMP45.Setting) --change GLOCK with your gun name
+a.Range = 10000
+a.Lifesteal = 100
+a.Spread = 0
+a.ExplosiveEnabled = true
+a.FlamingBullet = true --good combo with this, freezing and knockback
+a.FreezingBullet = true
+a.Knockback = 50 --set this to 100 to make people fly away...
+a.AmmoPerMag = math.huge
+a.FireRate= 0.0001
+a.Ammo = math.huge
+a.Auto = true
+a.DualEnabled = true --not for all guns
+a.Recoil = 0
+a.MaxAmmo = math.huge
