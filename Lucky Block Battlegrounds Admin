@@ -1,0 +1,11 @@
+getgenv().spawnblock = false; -- turn this to false so that the script wont execute when you spawn
+while true do
+wait();
+if getgenv().spawnblock == true then
+game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer();
+game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer();
+end;
+end;
